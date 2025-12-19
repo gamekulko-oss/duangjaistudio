@@ -1,0 +1,11 @@
+# Robots.txt for Duangjai Studio
+# https://duangjaistudio.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://duangjaistudio.com/sitemap.xml
+
+# Disallow paths (if any)
+Disallow: /content/

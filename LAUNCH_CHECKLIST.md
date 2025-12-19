@@ -24,12 +24,12 @@
 - [ ] Verify domain ownership
 
 ### 2. Sitemap.xml
-- [ ] สร้างไฟล์ `sitemap.xml`
+- [x] สร้างไฟล์ `sitemap.xml`
 - [ ] Submit sitemap ใน Google Search Console
 
 ### 3. robots.txt
-- [ ] สร้างไฟล์ `robots.txt`
-- [ ] อ้างอิง sitemap
+- [x] สร้างไฟล์ `robots.txt`
+- [x] อ้างอิง sitemap
 
 ### 4. Open Graph Image
 - [ ] สร้างรูป `og-image.jpg` (1200x630px)
