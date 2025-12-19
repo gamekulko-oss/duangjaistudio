@@ -1,0 +1,19 @@
+# Duangjai Studio Website
+
+## Site Description
+Duangjai Studio is a creative art space in Khon Kaen offering courses in Art, Film, and Photography. We focus on building student portfolios for university admission and fostering creativity.
+
+## Main Routes
+- / : Main landing page containing studio overview, latest student works, and course highlights.
+- #courses : Information about art and design courses.
+- #portfolio : "Dek Duangjai Show Port" - showcasing student portfolios.
+- #about : Information about Duangjai Studio.
+
+## Key Content
+- **Art Courses**: Drawing, Painting, Composition for beginners to advanced levels.
+- **Film & Photo**: Workshops on film photography, developing, and street photography on weekends.
+- **Student Success**: Showcasing portfolios that helped students get into top creative universities in Thailand.
+
+## Contact
+- Line Official: https://lin.ee/9pzfzvh
+- Location: Khon Kaen, Thailand.

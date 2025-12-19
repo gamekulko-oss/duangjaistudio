@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>บรรยากาศในดวงใจ - Duangjai Studio</title>
+    <meta name="description" content="บรรยากาศการเรียนอบอุ่น สนุก และเต็มไปด้วยแรงบันดาลใจที่ Duangjai Studio">
+
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&family=Mitr:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <style>
+        .gallery-hero {
+            background: linear-gradient(135deg, #f8f5f2 0%, #e8e4e0 100%);
+            padding: 120px 0 60px;
+            text-align: center;
+        }
+
+        .gallery-hero h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .gallery-hero p {
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 30px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--primary-color);
+        }
+
+        .full-gallery {
+            padding: 60px 0;
+            background: #fff;
+        }
+
+        .full-gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .gallery-image-item {
+            border-radius: 10px;
+            overflow: hidden;
+            aspect-ratio: 1 / 1;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .gallery-image-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-image-item:hover img {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 992px) {
+            .full-gallery-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 576px) {
+            .full-gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .gallery-hero {
+                padding: 100px 0 40px;
+            }
+
+            .gallery-hero h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header / Nav -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo-duangjai.svg" alt="Duangjai Studio Logo" class="site-logo"
+                    style="height: 80px; width: auto;">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">หน้าหลัก</a></li>
+                    <li><a href="courses.html">คอร์สเรียน</a></li>
+                    <li><a href="stories.html">เรื่องราว</a></li>
+                    <li><a href="portfolio.html">นักเรียน</a></li>
+                    <li><a href="activities.html">กิจกรรม</a></li>
+                    <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                    <li><a href="https://lin.ee/9pzfzvh" target="_blank" rel="noopener noreferrer"
+                            class="nav-btn-line"><i class="fa-brands fa-line" style="margin-right: 5px;"></i> สอบถาม /
+                            สมัครเรียน</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Gallery Hero -->
+    <section class="gallery-hero">
+        <div class="container">
+            <h1>บรรยากาศในดวงใจ</h1>
+            <p>บรรยากาศการเรียนอบอุ่น สนุก และเต็มไปด้วยแรงบันดาลใจ</p>
+        </div>
+    </section>
+
+    <!-- Full Gallery -->
+    <section class="full-gallery">
+        <div class="container">
+            <div class="full-gallery-grid" id="full-gallery-grid">
+                <!-- Images loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer minimal-footer">
+        <div class="container footer-flex">
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo">
+                    <img src="assets/logo-duangjai.svg" alt="Duangjai Studio" class="footer-logo-img">
+                </a>
+                <div class="vertical-divider"></div>
+                <div class="footer-socials">
+                    <span class="label en-font">Follow Us</span>
+                    <div class="social-icons-mini">
+                        <a href="https://www.facebook.com/duangjaistudio/" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/duangjaistudio/" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@duangjaistudio" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://lin.ee/9pzfzvh" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-line"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-info">
+                <div class="copyright-row">
+                    <div class="copyright en-font">
+                        &copy; 2025 Duangjai Studio. All rights reserved.
+                    </div>
+                    <div class="footer-legal">
+                        <a href="privacy-policy.html#privacy">Privacy Policy</a>
+                        <span>|</span>
+                        <a href="privacy-policy.html#terms">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Load all atmosphere images
+        document.addEventListener('DOMContentLoaded', async () => {
+            const grid = document.getElementById('full-gallery-grid');
+            if (!grid) return;
+
+            try {
+                const response = await fetch('data/atmosphere.json');
+                if (!response.ok) throw new Error('Failed to load images');
+                const data = await response.json();
+
+                data.images.forEach(image => {
+                    const item = document.createElement('div');
+                    item.className = 'gallery-image-item';
+                    item.innerHTML = `<img src="${image.src}" alt="${image.alt}" loading="lazy">`;
+                    grid.appendChild(item);
+                });
+
+            } catch (error) {
+                console.error('Error loading gallery:', error);
+                grid.innerHTML = '<p style="text-align:center; grid-column: 1/-1; color: #888;">ไม่สามารถโหลดรูปภาพได้</p>';
+            }
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

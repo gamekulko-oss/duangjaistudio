@@ -1,0 +1,156 @@
+[
+    {
+        "id": "post-001",
+        "category": "เล่าเรื่องเรียน",
+        "title": "ความสำเร็จของเด็กดวงใจ ปี 67",
+        "excerpt": "รวมรายชื่อสอบติดและผลงานพอร์ตโฟลิโอที่น่าภาคภูมิใจของน้องๆ ในปีนี้",
+        "image": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?q=80&w=2070&auto=format&fit=crop",
+        "contentFile": "content/posts/post-001.txt",
+        "date": "2024-03-15",
+        "author": "Admin",
+        "tags": [
+            "Portfolio",
+            "Success Story",
+            "Admissions"
+        ]
+    },
+    {
+        "id": "post-002",
+        "category": "ความรู้",
+        "title": "คอร์สพื้นฐานวาดเส้น (Drawing)",
+        "excerpt": "ปูพื้นฐานให้แน่น ตั้งแต่การจับดินสอ การลงน้ำหนักแสงเงา สู่การขึ้นรูปทรงที่แม่นยำ",
+        "image": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=2070&auto=format&fit=crop",
+        "contentFile": "content/posts/post-002.txt",
+        "date": "2024-03-10",
+        "author": "Instructor Mai",
+        "tags": [
+            "Drawing",
+            "Art Basics",
+            "Course"
+        ]
+    },
+    {
+        "id": "post-003",
+        "category": "กิจกรรม",
+        "title": "Workshop: Film Photography 101",
+        "excerpt": "กิจกรรมเรียนรู้การถ่ายภาพฟิล์มเบื้องต้น พร้อมออกทริปถ่ายภาพจริงในย่านเมืองเก่า",
+        "image": "https://images.unsplash.com/photo-1605632832520-2c7009367d02?q=80&w=2070&auto=format&fit=crop",
+        "contentFile": "content/posts/post-003.txt",
+        "date": "2024-02-28",
+        "author": "Duangjai Team",
+        "tags": [
+            "Workshop",
+            "Film",
+            "Photography",
+            "Events"
+        ]
+    },
+    {
+        "id": "post-004",
+        "category": "เล่าเรื่องเรียน",
+        "title": "โชว์พอร์ต: น้องมิ้นท์ ภาควิชาทัศนศิลป์",
+        "excerpt": "ตัวอย่างการจัดหน้าพอร์ตโฟลิโอสไตล์มินิมอล ที่เน้นโชว์ศักยภาพของงานศิลปะ",
+        "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?q=80&w=2080&auto=format&fit=crop",
+        "contentFile": "content/posts/post-004.txt",
+        "date": "2024-02-20",
+        "author": "Admin",
+        "tags": [
+            "Portfolio",
+            "Showcase",
+            "Student Work"
+        ]
+    },
+    {
+        "id": "post-005",
+        "category": "ความรู้",
+        "title": "Fashion Design & Styling",
+        "excerpt": "เรียนรู้การออกแบบเครื่องแต่งกาย การทำ Moodboard และการตัดเย็บเบื้องต้น",
+        "image": "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1974&auto=format&fit=crop",
+        "contentFile": "content/posts/post-005.txt",
+        "date": "2024-02-15",
+        "author": "Instructor Ploy",
+        "tags": [
+            "Fashion",
+            "Design",
+            "Course"
+        ]
+    },
+    {
+        "id": "post-006",
+        "category": "กิจกรรม",
+        "title": "Duangjai Art Camp Season 5",
+        "excerpt": "แคมป์ศิลปะ 3 วัน 2 คืน ที่จะพาน้องๆ ไปค้นหาตัวตนและสร้างสรรค์ผลงานท่ามกลางธรรมชาติ",
+        "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1932&auto=format&fit=crop",
+        "contentFile": "content/posts/post-006.txt",
+        "date": "2024-01-30",
+        "author": "Duangjai Team",
+        "tags": [
+            "Camp",
+            "Activities",
+            "Art"
+        ]
+    },
+    {
+        "id": "post-007",
+        "category": "ความรู้",
+        "title": "เจาะลึกหนังยุค 90s: คัมภีร์องค์ประกอบศิลป์ที่เด็กฟิล์มต้องดู",
+        "excerpt": "ถอดรหัสเสน่ห์งานภาพและโทนสีจากหนังยุค 90s แหล่ง Inspiration ชั้นดีสำหรับงานออกแบบ",
+        "image": "https://images.unsplash.com/photo-1595769816263-9b910be24d5f?q=80&w=1779&auto=format&fit=crop",
+        "contentFile": "content/posts/post-007.txt",
+        "date": "2024-03-20",
+        "author": "Duangjai Team",
+        "tags": [
+            "Film",
+            "90s",
+            "Art Direction",
+            "Knowledge"
+        ]
+    },
+    {
+        "id": "post-boss-thanaphat",
+        "category": "เล่าเรื่องเรียน",
+        "title": "เส้นทางสู่คณะสถาปัตย์ จุฬาฯ ของบอส - ธนภัทร",
+        "excerpt": "จากเด็กที่รักการวาดรูป สู่การสอบติดคณะสถาปัตยกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย ด้วย Portfolio ที่โดดเด่น",
+        "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1931&auto=format&fit=crop",
+        "contentFile": "content/posts/post-boss-thanaphat.txt",
+        "date": "2024-12-18",
+        "author": "บอส - ธนภัทร วงศ์วิทยา",
+        "tags": [
+            "Portfolio",
+            "Success Story",
+            "Architecture",
+            "Chulalongkorn",
+            "นักเรียนในดวงใจ"
+        ]
+    },
+    {
+        "id": "post-interview-001",
+        "category": "สัมภาษณ์",
+        "title": "สัมภาษณ์พิเศษ: เร็วๆ นี้",
+        "excerpt": "บทสัมภาษณ์พิเศษจากครอบครัวดวงใจ เตรียมพบกับบทสนทนาที่สร้างแรงบันดาลใจ",
+        "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2070&auto=format&fit=crop",
+        "contentFile": "content/posts/post-interview-001.txt",
+        "date": "2024-12-18",
+        "author": "Duangjai Team",
+        "tags": [
+            "Interview",
+            "สัมภาษณ์",
+            "Coming Soon"
+        ]
+    },
+    {
+        "id": "post-news-001",
+        "category": "ข่าวสาร",
+        "title": "ข่าวสารจาก Duangjai Studio: เร็วๆ นี้",
+        "excerpt": "ข่าวสารและความเคลื่อนไหวล่าสุดจากครอบครัวดวงใจ ติดตามได้เร็วๆ นี้",
+        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=2070&auto=format&fit=crop",
+        "contentFile": "content/posts/post-news-001.txt",
+        "date": "2024-12-18",
+        "author": "Duangjai Team",
+        "tags": [
+            "News",
+            "ข่าว",
+            "Coming Soon"
+        ]
+    }
+]

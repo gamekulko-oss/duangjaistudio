@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ผลงานนักเรียน - Duangjai Studio</title>
+    <meta name="description" content="รวมผลงานและความสำเร็จของนักเรียน Duangjai Studio ที่สอบติดมหาวิทยาลัยชั้นนำ">
+    <meta name="keywords" content="ผลงานนักเรียน, Portfolio, สอบติดศิลปากร, สอบติดจุฬา, เด็กศิลป์">
+    <meta name="author" content="Duangjai Studio">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://duangjaistudio.com/portfolio.html">
+    <meta property="og:title" content="ผลงานนักเรียน - Duangjai Studio">
+    <meta property="og:description"
+        content="รวมผลงานและความสำเร็จของนักเรียน Duangjai Studio ที่สอบติดมหาวิทยาลัยชั้นนำ">
+    <meta property="og:image" content="https://duangjaistudio.com/images/og-portfolio.jpg">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&family=Mitr:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header / Nav -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo-duangjai.svg" alt="Duangjai Studio Logo" class="site-logo"
+                    style="height: 80px; width: auto;">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">หน้าหลัก</a></li>
+                    <li><a href="courses.html">คอร์สเรียน</a></li>
+                    <li><a href="stories.html">เรื่องราว</a></li>
+                    <li><a href="portfolio.html" class="active" style="color:red;">นักเรียน</a></li>
+                    <li><a href="activities.html">กิจกรรม</a></li>
+                    <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                    <li><a href="https://lin.ee/9pzfzvh" target="_blank" rel="noopener noreferrer"
+                            class="nav-btn-line"><i class="fa-brands fa-line" style="margin-right: 5px;"></i> สอบถาม /
+                            สมัครเรียน</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- นักเรียนในดวงใจ Section Content -->
+    <section id="portfolio" class="section-padding"
+        style="background-color: var(--bg-color); padding-top: 150px; min-height: 80vh;">
+        <div class="container">
+            <div class="section-header">
+                <h2>นักเรียนในดวงใจ</h2>
+                <div class="header-divider"></div>
+                <p
+                    style="margin-top: 15px; color: var(--text-light); max-width: 600px; margin-left: auto; margin-right: auto;">
+                    พบกับผลงานและเรื่องราวของนักเรียนในครอบครัวดวงใจที่สอบติดคณะในฝัน
+                </p>
+            </div>
+
+            <div id="student-grid-all" class="student-grid">
+                <p style="text-align:center; grid-column: 1/-1;">กำลังโหลดข้อมูล...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Portfolio Modal -->
+    <div id="student-modal" class="student-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-student-info">
+                    <h2 id="modal-student-name"></h2>
+                    <p class="modal-school" id="modal-student-school"></p>
+                    <p class="modal-university" id="modal-student-university"></p>
+                </div>
+                <button class="modal-close" onclick="closeStudentModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="modal-portfolio-grid" class="modal-portfolio-grid">
+                <!-- Portfolio images will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer minimal-footer">
+        <div class="container footer-flex">
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo">
+                    <img src="assets/logo-duangjai.svg" alt="Duangjai Studio" class="footer-logo-img">
+                </a>
+                <div class="vertical-divider"></div>
+                <div class="footer-socials">
+                    <span class="label en-font">Follow Us</span>
+                    <div class="social-icons-mini">
+                        <a href="https://www.facebook.com/duangjaistudio/" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/duangjaistudio/" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@duangjaistudio" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://lin.ee/9pzfzvh" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-line"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-info">
+
+                <div class="copyright-row">
+
+                    <div class="copyright en-font">
+                        &copy; 2025 Duangjai Studio. All rights reserved.
+                    </div>
+                    <div class="footer-legal">
+                        <a href="privacy-policy.html#privacy">Privacy Policy</a>
+                        <span>|</span>
+                        <a href="privacy-policy.html#terms">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent Popup -->
+    <div id="cookie-consent" class="cookie-consent">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <h4>เราใช้คุกกี้</h4>
+                <p>เราใช้คุกกี้เพื่อปรับปรุงประสบการณ์และประสิทธิภาพในการใช้งานเว็บไซต์ของคุณ
+                    คุณสามารถจัดการการตั้งค่าได้โดยคลิก "ตั้งค่า" <a href="privacy-policy.html#privacy">นโยบายคุกกี้</a>
+                </p>
+            </div>
+            <div class="cookie-actions">
+                <a href="privacy-policy.html#privacy" class="cookie-link">ตั้งค่า</a>
+                <button id="accept-cookies" class="cookie-accept-btn">ยอมรับทั้งหมด</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

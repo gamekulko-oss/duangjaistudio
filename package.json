@@ -1,0 +1,12 @@
+{
+  "name": "duangjaistudio",
+  "version": "1.0.0",
+  "description": "Duangjai Studio Website",
+  "main": "start_server.js",
+  "scripts": {
+    "start": "node start_server.js",
+    "sync": "powershell -ExecutionPolicy Bypass -File sync_github.ps1"
+  },
+  "author": "Duangjai Studio",
+  "license": "ISC"
+}

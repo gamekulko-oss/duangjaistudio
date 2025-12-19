@@ -1,0 +1,74 @@
+[
+    {
+        "id": "art-camp-s4",
+        "title": "Art Camp Season 4",
+        "category": "Workshop",
+        "image": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?q=80&w=2074&auto=format&fit=crop",
+        "date": "21-23",
+        "month": "ธ.ค.",
+        "year": "2567",
+        "location": "Duangjai Studio",
+        "excerpt": "ค่ายศิลปะฤดูหนาวสำหรับน้องๆ มัธยมปลาย ที่จะพาทุกคนไปค้นหาตัวตนผ่านงานศิลปะ",
+        "contentFile": "content/activities/art-camp-s4.html",
+        "meta": {
+            "time": "09:00 - 16:00 น.",
+            "participants": "15 คน",
+            "cost": "3,500 บาท",
+            "registerLink": "https://lin.ee/9pzfzvh"
+        }
+    },
+    {
+        "id": "outdoor-sketching",
+        "title": "Outdoor Sketching @Old Town",
+        "category": "Outdoor",
+        "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=2045&auto=format&fit=crop",
+        "date": "15",
+        "month": "ม.ค.",
+        "year": "2568",
+        "location": "เมืองเก่าสงขลา",
+        "excerpt": "กิจกรรมวาดภาพนอกสถานที่ เรียนรู้เทคนิคการสเกตซ์ภาพจากสถานที่จริง",
+        "contentFile": "content/activities/outdoor-sketching.html",
+        "meta": {
+            "time": "08:00 - 12:00 น.",
+            "participants": "20 คน",
+            "cost": "500 บาท",
+            "registerLink": "https://lin.ee/9pzfzvh"
+        }
+    },
+    {
+        "id": "clay-workshop",
+        "title": "Creative Clay Workshop",
+        "category": "Workshop",
+        "image": "https://images.unsplash.com/photo-1506259091721-347f798196d4?q=80&w=2070&auto=format&fit=crop",
+        "date": "10",
+        "month": "ก.พ.",
+        "year": "2568",
+        "location": "Duangjai Studio",
+        "excerpt": "เวิร์กชอปปั้นดินเผาสำหรับบุคคลทั่วไป ไม่จำเป็นต้องมีพื้นฐาน",
+        "contentFile": "content/activities/clay-workshop.html",
+        "meta": {
+            "time": "13:00 - 16:00 น.",
+            "participants": "10 คน",
+            "cost": "1,200 บาท",
+            "registerLink": "https://lin.ee/9pzfzvh"
+        }
+    },
+    {
+        "id": "portfolio-talk",
+        "title": "Portfolio Talk 2025",
+        "category": "Talk",
+        "image": "https://images.unsplash.com/photo-1558403194-611308249627?q=80&w=2070&auto=format&fit=crop",
+        "date": "05",
+        "month": "มี.ค.",
+        "year": "2568",
+        "location": "Online via Zoom",
+        "excerpt": "พูดคุยแนะแนวการทำพอร์ตโฟลิโอสำหรับ #DEK69 เตรียมตัวอย่างไรให้ติดรอบแรก",
+        "contentFile": "content/activities/portfolio-talk.html",
+        "meta": {
+            "time": "19:00 - 20:30 น.",
+            "participants": "ไม่จำกัด",
+            "cost": "ฟรี",
+            "registerLink": "https://lin.ee/9pzfzvh"
+        }
+    }
+]

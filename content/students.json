@@ -1,0 +1,157 @@
+[
+    {
+        "id": "student-001",
+        "name": "ธนภัทร วงศ์วิทยา",
+        "nickname": "บอส",
+        "school": "โรงเรียนเตรียมอุดมศึกษา",
+        "major": "สถาปัตยกรรม",
+        "faculty": "คณะสถาปัตยกรรมศาสตร์",
+        "universityName": "จุฬาลงกรณ์มหาวิทยาลัย",
+        "profileImage": "images/dekduangjai69/dek_test.webp",
+        "articleId": "post-boss-thanaphat",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1579783902614-a3fb39279c71?q=80&w=800&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "student-002",
+        "name": "พิมพ์มาดา ศรีสุข",
+        "nickname": "มิ้นท์",
+        "school": "โรงเรียนสาธิตมหาวิทยาลัยศรีนครินทรวิโรฒ",
+        "major": "จิตรกรรม",
+        "faculty": "คณะจิตรกรรมประติมากรรมและภาพพิมพ์",
+        "universityName": "มหาวิทยาลัยศิลปากร",
+        "profileImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=400&auto=format&fit=crop",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1515405295579-ba7f452aaf8e?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1561214115-f2f134cc4912?q=80&w=800&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "student-003",
+        "name": "ณัฐวุฒิ เจริญพร",
+        "nickname": "เกม",
+        "school": "โรงเรียนสวนกุหลาบวิทยาลัย",
+        "major": "สถาปัตยกรรมภายใน",
+        "faculty": "คณะสถาปัตยกรรมศาสตร์",
+        "universityName": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "profileImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1605632832520-2c7009367d02?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=800&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "student-004",
+        "name": "ปาริชาติ จันทร์เพ็ญ",
+        "nickname": "แพร",
+        "school": "โรงเรียนมาแตร์เดอีวิทยาลัย",
+        "major": "ภาพยนตร์และภาพนิ่ง",
+        "faculty": "คณะนิเทศศาสตร์",
+        "universityName": "จุฬาลงกรณ์มหาวิทยาลัย",
+        "profileImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=400&auto=format&fit=crop",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1606092195730-5d7b9af1ef4d?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?q=80&w=800&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "student-005",
+        "name": "กิตติพงศ์ รัตนโชติ",
+        "nickname": "กีต้าร์",
+        "school": "โรงเรียนสาธิตจุฬาลงกรณ์มหาวิทยาลัย",
+        "major": "วารสารศาสตร์",
+        "faculty": "คณะวารสารศาสตร์และสื่อสารมวลชน",
+        "universityName": "มหาวิทยาลัยธรรมศาสตร์",
+        "profileImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1574169208507-84376144848b?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=800&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "student-006",
+        "name": "ณิชา พัฒนกุล",
+        "nickname": "นิว",
+        "school": "โรงเรียนราชินี",
+        "major": "ออกแบบภายใน",
+        "faculty": "คณะมัณฑนศิลป์",
+        "universityName": "มหาวิทยาลัยศิลปากร",
+        "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1578926375605-eaf7559b1458?q=80&w=800&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "student-007",
+        "name": "ภูมิพัฒน์ สุวรรณภูมิ",
+        "nickname": "ภูมิ",
+        "school": "โรงเรียนกรุงเทพคริสเตียนวิทยาลัย",
+        "major": "เทคโนโลยีการศึกษา",
+        "faculty": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+        "universityName": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&auto=format&fit=crop",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1634017839464-5c339afa41d0?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1626544827763-d516dce335e2?q=80&w=800&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "student-008",
+        "name": "วรรณวิสา อมรรัตน์",
+        "nickname": "หวาน",
+        "school": "โรงเรียนเซนต์โยเซฟคอนเวนต์",
+        "major": "ภาษาอังกฤษ",
+        "faculty": "คณะอักษรศาสตร์",
+        "universityName": "จุฬาลงกรณ์มหาวิทยาลัย",
+        "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1579783902614-a3fb39279c71?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "student-009",
+        "name": "สิรวิชญ์ ศรีประเสริฐ",
+        "nickname": "เบนซ์",
+        "school": "โรงเรียนอัสสัมชัญ",
+        "major": "แอนิเมชัน",
+        "faculty": "คณะดิจิทัลมีเดียและศิลปะภาพยนตร์",
+        "universityName": "มหาวิทยาลัยกรุงเทพ",
+        "profileImage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=400&auto=format&fit=crop",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1569017388730-020b5f80a004?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1533561052604-c3beb6d55b8d?q=80&w=800&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "student-010",
+        "name": "ปุณยาพร ธนะวัฒน์",
+        "nickname": "ปลา",
+        "school": "โรงเรียนบดินทรเดชา",
+        "major": "ออกแบบผลิตภัณฑ์",
+        "faculty": "คณะสถาปัตยกรรมศาสตร์",
+        "universityName": "มหาวิทยาลัยเกษตรศาสตร์",
+        "profileImage": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=400&auto=format&fit=crop",
+        "portfolioImages": [
+            "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1561998338-13ad7883b20f?q=80&w=800&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?q=80&w=800&auto=format&fit=crop"
+        ]
+    }
+]
