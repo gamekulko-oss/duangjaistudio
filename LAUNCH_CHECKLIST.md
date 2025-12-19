@@ -36,9 +36,9 @@
 - [x] อัปโหลดไปยัง `images/og-image.jpg`
 
 ### 5. Deploy to Hostinger
-- [ ] เชื่อมต่อ GitHub กับ Hostinger
-- [ ] ตั้งค่า Auto Deploy
-- [ ] ทดสอบเว็บบน production
+- [x] เชื่อมต่อ GitHub กับ Hostinger
+- [x] ตั้งค่า Auto Deploy
+- [x] ทดสอบเว็บบน production
 
 ---
 
