@@ -14,7 +14,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500&display=swap" rel="stylesheet">
 
     <style>
         * {
@@ -24,12 +24,12 @@
         }
 
         body {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Bai Jamjuree', sans-serif;
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #8B3A3A;
+            background-color: #c9242b;
         }
 
         .container {
@@ -38,17 +38,16 @@
         }
 
         .logo {
-            width: 180px;
+            width: 160px;
             height: auto;
-            margin-bottom: 2rem;
-            filter: brightness(0) invert(1);
+            margin: 0 auto 2rem;
         }
 
         .coming-soon {
             color: #ffffff;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 300;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             margin-bottom: 2rem;
         }
 
@@ -59,8 +58,8 @@
         }
 
         .social-link {
-            width: 36px;
-            height: 36px;
+            width: 32px;
+            height: 32px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -74,18 +73,28 @@
         }
 
         .social-link svg {
-            width: 24px;
-            height: 24px;
+            width: 20px;
+            height: 20px;
             fill: currentColor;
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                width: 120px;
+            }
+
+            .coming-soon {
+                font-size: 1.1rem;
+            }
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <img src="assets/logo.png" alt="ดวงใจ สตูดิโอ" class="logo">
+        <img src="images/LOGO_White_Duangjai 4000x4000.png" alt="ดวงใจ สตูดิโอ" class="logo">
 
-        <p class="coming-soon">Coming Soon</p>
+        <p class="coming-soon">เตรียมพบกับเรื่องราวในดวงใจ เร็ว ๆ นี้</p>
 
         <div class="social-links">
             <!-- Line Official -->
