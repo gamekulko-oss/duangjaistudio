@@ -32,8 +32,8 @@
 - [x] อ้างอิง sitemap
 
 ### 4. Open Graph Image
-- [ ] สร้างรูป `og-image.jpg` (1200x630px)
-- [ ] อัปโหลดไปยัง `images/og-image.jpg`
+- [x] สร้างรูป `og-image.jpg` (1200x630px)
+- [x] อัปโหลดไปยัง `images/og-image.jpg`
 
 ### 5. Deploy to Hostinger
 - [ ] เชื่อมต่อ GitHub กับ Hostinger
