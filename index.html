@@ -1,475 +1,370 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duangjai Studio - A House of Heart Full of Art</title>
-    <meta name="description"
-        content="บ้านหลังเล็ก ๆ รับสอนฟิล์ม โฟโต้ ดีไซน์ และ แอนิเมชั่น พร้อมสานฝันเด็ก ๆ สู่มหาวิทยาลัยชั้นนำ">
-    <meta name="keywords"
-        content="ศิลปะ, สอนศิลปะ, ติวศิลปะ, ฟิล์ม, โฟโต้, ดีไซน์, แอนิเมชัน, Portfolio, TCAS, Duangjai Studio">
-    <meta name="author" content="Duangjai Studio">
-
-    <!-- Open Graph / Facebook / Line -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://duangjaistudio.com/">
-    <meta property="og:title" content="Duangjai Studio - A House of Heart Full of Art">
-    <meta property="og:description"
-        content="บ้านหลังเล็ก ๆ รับสอนฟิล์ม โฟโต้ ดีไซน์ และ แอนิเมชั่น พร้อมสานฝันเด็ก ๆ สู่มหาวิทยาลัยชั้นนำ">
-    <meta property="og:image" content="https://duangjaistudio.com/images/og-image.jpg">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-
-    <!-- Updated to TH-10 (Bangkok) as per user instruction "Bangkok" -->
-    <meta name="geo.region" content="TH-10" />
-    <meta name="geo.placename" content="Bangkok" />
-
-    <title>Duangjai Studio | ดวงใจ สตูดิโอ</title>
-
-    <!-- Google Fonts: Bai Jamjuree (Thai/Latin), Mitr (English preference) -->
+    <title>ดวงใจ สตูดิโอ | Coming Soon</title>
+    <meta name="description" content="ดวงใจ สตูดิโอ - a house of heart full of art กำลังจะมาเร็วๆ นี้">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&family=Mitr:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    <link rel="stylesheet" href="styles.css">
+        body {
+            font-family: 'Mitr', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            overflow: hidden;
+            position: relative;
+        }
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        /* Animated background shapes */
+        .bg-shapes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.1;
+            animation: float 20s infinite ease-in-out;
+        }
+
+        .shape:nth-child(1) {
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(45deg, #e94560, #ff6b6b);
+            top: -100px;
+            right: -100px;
+            animation-delay: 0s;
+        }
+
+        .shape:nth-child(2) {
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            bottom: -50px;
+            left: -50px;
+            animation-delay: -5s;
+        }
+
+        .shape:nth-child(3) {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(45deg, #48dbfb, #0abde3);
+            top: 50%;
+            left: 20%;
+            animation-delay: -10s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+            25% {
+                transform: translate(30px, -30px) rotate(90deg);
+            }
+            50% {
+                transform: translate(-20px, 20px) rotate(180deg);
+            }
+            75% {
+                transform: translate(10px, -10px) rotate(270deg);
+            }
+        }
+
+        .container {
+            text-align: center;
+            z-index: 1;
+            padding: 2rem;
+            max-width: 600px;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            animation: pulse 3s infinite ease-in-out;
+        }
+
+        .logo img {
+            width: 80px;
+            height: auto;
+            filter: brightness(0) invert(1);
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(233, 69, 96, 0.4);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 20px rgba(233, 69, 96, 0);
+            }
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .subtitle {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 2rem;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .coming-soon {
+            display: inline-block;
+            background: linear-gradient(135deg, #e94560, #ff6b6b);
+            color: white;
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 40px rgba(233, 69, 96, 0.4);
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                box-shadow: 0 10px 40px rgba(233, 69, 96, 0.4);
+            }
+            to {
+                box-shadow: 0 10px 60px rgba(233, 69, 96, 0.6);
+            }
+        }
+
+        .description {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .social-link {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .social-link:hover {
+            background: #e94560;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(233, 69, 96, 0.4);
+        }
+
+        .social-link svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        .contact-info {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.95rem;
+        }
+
+        .contact-info a {
+            color: #ff6b6b;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: #feca57;
+        }
+
+        /* Hearts animation */
+        .hearts {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .heart {
+            position: absolute;
+            font-size: 20px;
+            color: rgba(233, 69, 96, 0.3);
+            animation: rise 15s infinite;
+        }
+
+        @keyframes rise {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) rotate(720deg);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .coming-soon {
+                font-size: 1.2rem;
+                padding: 0.8rem 2rem;
+            }
+
+            .description {
+                font-size: 1rem;
+            }
+
+            .logo {
+                width: 100px;
+                height: 100px;
+            }
+
+            .logo img {
+                width: 60px;
+            }
+        }
+    </style>
 </head>
-
 <body>
-
-    <!-- Header / Nav -->
-    <header class="site-header">
-        <div class="container header-container">
-            <a href="#" class="logo">
-                <img src="assets/logo-duangjai.svg" alt="Duangjai Studio Logo" class="site-logo"
-                    style="height: 80px; width: auto;">
-            </a>
-            <nav class="main-nav">
-                <ul>
-                    <!-- English menu items use en-font, Thai use default (Bai Jamjuree) -->
-                    <li><a href="index.html" class="active" style="color:red;">หน้าหลัก</a></li>
-                    <li><a href="courses.html">คอร์สเรียน</a></li>
-                    <li><a href="stories.html">เรื่องราว</a></li>
-                    <li><a href="portfolio.html">นักเรียน</a></li>
-                    <li><a href="activities.html">กิจกรรม</a></li>
-                    <li><a href="about.html">เกี่ยวกับเรา</a></li>
-                    <li><a href="https://lin.ee/9pzfzvh" target="_blank" rel="noopener noreferrer"
-                            class="nav-btn-line"><i class="fa-brands fa-line" style="margin-right: 5px;"></i> สอบถาม /
-                            สมัครเรียน</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="mobile-menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </header>
-
-    <!-- Main Content Wrapper -->
-    <main>
-        <!-- Hero Slider Section -->
-        <section id="hero-slider" class="hero-slider">
-            <div class="slider-wrapper">
-                <!-- Slide 1: Main Hero (Static) -->
-                <div class="hero-slide active" data-slide="0">
-                    <div class="hero-bg">
-                        <img src="images/hero-firstslide-cover.webp" alt="Art Studio Atmosphere">
-                    </div>
-                    <div class="hero-overlay">
-                        <div class="container hero-content">
-                            <h1 class="hero-title en-font">a house of heart<br>full of art</h1>
-                            <p class="hero-subtitle">สตูดิโอศิลปะบรรยากาศอบอุ่น ติวเข้ม ฟิล์ม โฟโต้ ดีไซน์
-                                และแอนิเมชัน<br>ดูแลใกล้ชิดแบบ Individual Plan พาน้อง ๆ สอบติดมหาวิทยาลัยในฝัน</p>
-                            <div class="hero-actions">
-                                <a href="https://lin.ee/9pzfzvh" target="_blank" rel="noopener noreferrer"
-                                    class="btn btn-primary">ปรึกษาวางแผนเรียนฟรี</a>
-                                <a href="courses.html" class="btn btn-outline">ดูคอร์สเรียน</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Slider Navigation -->
-            <div class="slider-nav">
-                <button class="slider-arrow slider-prev" aria-label="Previous Slide"><i
-                        class="fas fa-chevron-left"></i></button>
-                <div class="slider-dots">
-                    <span class="slider-dot active" data-slide="0"></span>
-                </div>
-                <button class="slider-arrow slider-next" aria-label="Next Slide"><i
-                        class="fas fa-chevron-right"></i></button>
-            </div>
-        </section>
-
-        <!-- Courses Section -->
-        <section id="courses" class="section-padding bg-white">
-            <div class="container">
-                <div class="section-header">
-                    <h2><a href="courses.html" class="inherit-link">คอร์สเรียนของเรา</a></h2>
-                    <div class="header-divider"></div>
-                    <p class="section-desc">หลักสูตรที่ออกแบบมาเพื่อเจาะลึกทักษะเฉพาะทาง
-                        ปูตั้งแต่พื้นฐานไปจนถึงเทคนิคสร้างสรรค์<br>เพื่อ Portfolio
-                        ที่โดดเด่นสำหรับการยื่นเข้ามหาวิทยาลัย</p>
-                </div>
-
-                <div class="course-grid">
-                    <!-- Course 1: Film -->
-                    <a href="courses/film.html" class="course-card">
-                        <div class="course-image">
-                            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=800&auto=format&fit=crop"
-                                alt="Film Course">
-                        </div>
-                        <div class="course-info">
-                            <h3 class="en-font">Film</h3>
-                            <p>เรียนรู้ศาสตร์และศิลป์ของการทำภาพยนตร์</p>
-                        </div>
-                    </a>
-
-                    <!-- Course 2: Photo -->
-                    <a href="courses/photo.html" class="course-card">
-                        <div class="course-image">
-                            <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=800&auto=format&fit=crop"
-                                alt="Photo Course">
-                        </div>
-                        <div class="course-info">
-                            <h3 class="en-font">Photo</h3>
-                            <p>พัฒนาทักษะการถ่ายภาพและการเล่าเรื่องด้วยภาพ</p>
-                        </div>
-                    </a>
-
-                    <!-- Course 3: Drawing -->
-                    <a href="courses/drawing.html" class="course-card">
-                        <div class="course-image">
-                            <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=800&auto=format&fit=crop"
-                                alt="Drawing Course">
-                        </div>
-                        <div class="course-info">
-                            <h3 class="en-font">Drawing</h3>
-                            <p>ปูพื้นฐานวาดเส้นและองค์ประกอบศิลป์ให้แน่น</p>
-                        </div>
-                    </a>
-
-                    <!-- Course 4: Portfolio -->
-                    <a href="courses/portfolio.html" class="course-card">
-                        <div class="course-image">
-                            <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=800&auto=format&fit=crop"
-                                alt="Portfolio Course">
-                        </div>
-                        <div class="course-info">
-                            <h3 class="en-font">Portfolio & Project</h3>
-                            <p>วางแผนและสร้าง Portfolio เพื่อยื่นสมัครมหาวิทยาลัย</p>
-                        </div>
-                    </a>
-
-                    <!-- Course 5: Animation - Coming Soon -->
-                    <div class="course-card coming-soon">
-                        <div class="course-image">
-                            <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=800&auto=format&fit=crop"
-                                alt="Animation Course">
-                            <span class="coming-soon-badge">เร็ว ๆ นี้</span>
-                        </div>
-                        <div class="course-info">
-                            <h3 class="en-font">Animation</h3>
-                            <p>เรียนรู้การสร้างแอนิเมชันตั้งแต่พื้นฐานจนถึงขั้นสูง</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="view-more-container">
-                    <a href="courses.html" class="btn-view-more">ดูคอร์สทั้งหมด <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Duangjai Space (Content Grid) -->
-        <section id="duangjai-space" class="latest-post section-padding">
-            <div class="container">
-                <div class="section-header">
-                    <h2><a href="stories.html" class="inherit-link">เรื่องราวในดวงใจ</a></h2>
-                    <div class="header-divider"></div>
-                    <p class="section-desc">รวมบทความสาระความรู้ด้านศิลปะ เทคนิคการวาดภาพ
-                        และแรงบันดาลใจจากครูและนักเรียนในครอบครัวดวงใจ</p>
-                </div>
-
-                <div class="tabs-container" id="category-tabs">
-                    <!-- Dynamic Tabs -->
-                </div>
-
-                <div id="blog-grid" class="grid-layout">
-                    <p class="loading-text">กำลังโหลดข้อมูล...</p>
-                </div>
-
-                <div id="stories-view-more" class="view-more-container hidden-default margin-top-40 text-center">
-                    <a href="stories.html" class="btn-view-more inherit-link font-weight-500">อ่านเรื่องราวทั้งหมด <i
-                            class="fas fa-arrow-right"></i></a>
-                </div>
-
-                <!-- Single Post View Container -->
-                <div id="post-detail-view" class="post-detail-container">
-                    <button id="back-btn" class="btn-back">
-                        <i class="fas fa-arrow-left"></i> กลับไปหน้าบทความ
-                    </button>
-                    <div id="post-content-container">
-                        <!-- Dynamic Content -->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- นักเรียนในดวงใจ Section -->
-        <section id="portfolio" class="section-padding bg-light">
-            <div class="container">
-                <div class="section-header">
-                    <h2><a href="portfolio.html" class="inherit-link">นักเรียนในดวงใจ</a></h2>
-                    <div class="header-divider"></div>
-                    <p class="section-desc">พบกับผลงานและเรื่องราวของนักเรียนในครอบครัวดวงใจ ที่สอบติดคณะในฝัน</p>
-                </div>
-
-                <div id="student-grid-home" class="student-grid">
-                    <p class="loading-text">กำลังโหลดข้อมูล...</p>
-                </div>
-                <div class="view-more-container">
-                    <a href="portfolio.html" class="btn-view-more">ดูเพิ่มเติม <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Activities Section -->
-        <section id="activities" class="section-padding bg-white">
-            <div class="container">
-                <div class="section-header">
-                    <h2><a href="activities.html" class="inherit-link">กิจกรรม</a></h2>
-                    <div class="header-divider"></div>
-                    <p class="section-desc">กิจกรรมสนุก ๆ และเวิร์กช็อปพิเศษจากดวงใจ สตูดิโอ เปิดประสบการณ์ใหม่ ๆ
-                        ให้กับน้อง ๆ</p>
-                </div>
-
-                <div id="activity-grid-home" class="activity-grid-layout">
-                    <p class="loading-text">กำลังโหลดกิจกรรม...</p>
-                </div>
-
-                <div class="view-more-container">
-                    <a href="activities.html" class="btn-view-more">ดูทั้งหมด <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </section>
-
-        <!-- บรรยากาศในดวงใจ + Testimonials Section -->
-        <section id="atmosphere" class="atmosphere-testimonial-section">
-            <div class="container">
-                <div class="atmosphere-testimonial-row">
-                    <!-- Atmosphere Gallery Column -->
-                    <div class="atmosphere-column">
-                        <div class="section-header">
-                            <h2><a href="atmosphere-gallery.html" class="inherit-link">บรรยากาศในดวงใจ</a></h2>
-                            <div class="header-divider"></div>
-                            <p class="section-desc">บรรยากาศการเรียนอบอุ่น สนุก และเต็มไปด้วยแรงบันดาลใจ</p>
-                        </div>
-                        <div class="atmosphere-grid" id="atmosphere-grid">
-                            <!-- 8 slots populated dynamically by JavaScript -->
-                        </div>
-                        <div style="text-align: center; margin-top: 30px;">
-                            <a href="atmosphere-gallery.html" class="btn-view-more">
-                                ดูบรรยากาศทั้งหมด <i class="fas fa-arrow-right"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Testimonial Carousel Column -->
-                    <div class="testimonial-column">
-                        <div class="testimonial-header">
-                            <h3>เสียงจากเด็กดวงใจ</h3>
-                            <div class="header-divider"></div>
-                            <p>ความรู้สึกจากนักเรียนที่สอบติดในฝัน</p>
-                        </div>
-                        <div class="testimonial-carousel" id="testimonial-carousel">
-                            <div class="testimonial-track">
-                                <div class="testimonial-slides" id="testimonial-slides">
-                                    <!-- Populated by JavaScript -->
-                                </div>
-                            </div>
-                            <div class="testimonial-nav">
-                                <button class="testimonial-nav-btn" id="testimonial-prev">
-                                    <i class="fas fa-chevron-left"></i>
-                                </button>
-                                <div class="testimonial-dots" id="testimonial-dots">
-                                    <!-- Dots populated by JavaScript -->
-                                </div>
-                                <button class="testimonial-nav-btn" id="testimonial-next">
-                                    <i class="fas fa-chevron-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="section-padding bg-light">
-            <div class="container">
-                <div class="section-header">
-                    <h2><a href="about.html" class="inherit-link">เกี่ยวกับเรา</a></h2>
-                    <div class="header-divider"></div>
-                </div>
-                <div class="about-layout">
-                    <div class="about-img-col">
-                        <img src="assets/front-studio-duangjai.webp" alt="About Duangjai"
-                            class="rounded-img full-width">
-                    </div>
-                    <div class="about-text-col">
-                        <h3 class="about-title">จุดเริ่มต้นของนักสร้างสรรค์ตัวจริง</h3>
-                        <p class="margin-bottom-20">เราคือสตูดิโอสอนศิลปะเฉพาะทางด้าน Film, Photo, Design และ Animation
-                            ย่านเจริญนคร ที่เน้นการเรียนการสอนแบบ On-site ใกล้ชิด อบอุ่น และเป็นกันเอง</p>
-                        <p>ที่นี่ไม่เพียงแค่สอนเพื่อให้สอบติด แต่เราช่วยวางแผนอนาคตด้วยระบบ Individual Plan
-                            ที่ออกแบบมาเพื่อเด็ก ๆ โดยเฉพาะ ไม่ว่าจะเตรียมตัวสอบเข้ามหาวิทยาลัย รอบ 1 Portfolio
-                            หรือกำลังเริ่มค้นหาตัวตน เราพร้อมผลักดันให้ผลงานของเด็ก ๆ โดดเด่นที่สุด</p>
-
-                        <div class="margin-top-30">
-                            <p class="en-font"><strong>Open:</strong> Thursday - Sunday (10.00 AM – 17.00 PM)</p>
-                            <p class="en-font margin-top-10"><strong>Location:</strong> Charoen Nakhon 40, Bangkok</p>
-
-                            <!-- Contact Buttons -->
-                            <div class="contact-btn-group">
-                                <a href="tel:+66994500399" class="btn-contact en-font">
-                                    <i class="fas fa-phone primary-color"></i> +66 99-450-0399
-                                </a>
-                                <a href="mailto:duangjaistudio@gmail.com" class="btn-contact en-font">
-                                    <i class="fas fa-envelope primary-color"></i> duangjaistudio@gmail.com
-                                </a>
-                            </div>
-
-                            <div class="map-container">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.062365548729!2d100.49445589999999!3d13.714672600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2990038f02f59%3A0x8d9ba92e10c516e7!2z4LiU4Lin4LiH4LmD4LiIIOC4quC4leC4ueC4lOC4tOC5guC4rQ!5e0!3m2!1sth!2sth!4v1765275953623!5m2!1sth!2sth"
-                                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Team Section -->
-        <section id="team" class="section-padding bg-white">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="text-center">Duangjai Studio Team</h2>
-                </div>
-                <div class="team-grid">
-                    <!-- Member 1: Meow -->
-                    <div class="team-member">
-                        <div class="team-img-wrapper">
-                            <img src="assets/meow-kanyarat-500x600.webp" alt="Meow - Kanyarat Sae-lim"
-                                class="cover-img">
-                        </div>
-                        <div class="team-info">
-                            <h3 class="en-font team-name">Meow - Kanyarat Sae-lim</h3>
-                            <p class="team-role">Co-founder & Learning Design Director</p>
-                            <p class="team-education">B.F.A. Film and Digital Media (First-class Honors)<br>King
-                                Mongkut's Institute of Technology Ladkrabang<br><br>Certificate in Integrated Design
-                                (Exchange Program)<br>Anhalt University of Applied Sciences</p>
-                        </div>
-                    </div>
-                    <!-- Member 2: Game -->
-                    <div class="team-member">
-                        <div class="team-img-wrapper">
-                            <img src="assets/game-nattakan-500x600.webp" alt="Game - Nattakan Kosiyakol"
-                                class="cover-img">
-                        </div>
-                        <div class="team-info">
-                            <h3 class="en-font team-name">Game - Nattakan Kosiyakol</h3>
-                            <p class="team-role">Co-founder & Business Director</p>
-                            <p class="team-education">B.B.A. Digital Marketing (First-class Honors)<br>Bangkok
-                                University</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Section -->
-        <section class="cta-line-section">
-            <div class="container cta-container">
-                <div class="cta-image">
-                    <img src="assets/JOIN-OUR-COMMUNITY2.webp" alt="Join Our Community">
-                </div>
-
-                <div class="cta-text">
-                    <span class="cta-label en-font">JOIN OUR COMMUNITY</span>
-                    <h2>มาเป็นครอบครัว<br>ดวงใจ สตูดิโอ</h2>
-                    <p>พร้อมสานฝันสู่คณะที่ใช่ไปด้วยกัน ทักมาพูดคุยกับพี่ ๆ ได้เลย!</p>
-                    <a href="https://lin.ee/9pzfzvh" target="_blank" rel="noopener noreferrer"
-                        class="btn btn-line-large">
-                        <i class="fa-brands fa-line margin-right-5"></i> ทักไลน์ @duangjaistudio
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Main Footer -->
-    <footer class="site-footer minimal-footer">
-        <div class="container footer-flex">
-            <div class="footer-brand">
-                <a href="index.html" class="footer-logo">
-                    <img src="assets/logo-duangjai.svg" alt="Duangjai Studio" class="footer-logo-img">
-                </a>
-                <div class="vertical-divider"></div>
-                <div class="footer-socials">
-                    <span class="label en-font">Follow Us</span>
-                    <div class="social-icons-mini">
-                        <a href="https://www.facebook.com/duangjaistudio/" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/duangjaistudio/" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.tiktok.com/@duangjaistudio" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-brands fa-tiktok"></i></a>
-                        <a href="https://lin.ee/9pzfzvh" target="_blank" rel="noopener noreferrer"><i
-                                class="fa-brands fa-line"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-info">
-
-                <div class="copyright-row">
-
-                    <div class="copyright en-font">
-                        &copy; 2025 Duangjai Studio. All rights reserved.
-                    </div>
-                    <div class="footer-legal">
-                        <a href="privacy-policy.html#privacy">Privacy Policy</a>
-                        <span>|</span>
-                        <a href="privacy-policy.html#terms">Terms & Conditions</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Cookie Consent Popup -->
-    <div id="cookie-consent" class="cookie-consent">
-        <div class="cookie-content">
-            <div class="cookie-text">
-                <h4>เราใช้คุกกี้</h4>
-                <p>เราใช้คุกกี้เพื่อปรับปรุงประสบการณ์และประสิทธิภาพในการใช้งานเว็บไซต์ของคุณ
-                    คุณสามารถจัดการการตั้งค่าได้โดยคลิก "ตั้งค่า" <a href="privacy-policy.html#privacy">นโยบายคุกกี้</a>
-                </p>
-            </div>
-            <div class="cookie-actions">
-                <a href="privacy-policy.html#privacy" class="cookie-link">ตั้งค่า</a>
-                <button id="accept-cookies" class="cookie-accept-btn">ยอมรับทั้งหมด</button>
-            </div>
-        </div>
+    <!-- Background shapes -->
+    <div class="bg-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
     </div>
 
-    <script src="js/main.js"></script>
-</body>
+    <!-- Hearts animation -->
+    <div class="hearts" id="hearts"></div>
 
+    <div class="container">
+        <div class="logo">
+            <img src="assets/logo.png" alt="ดวงใจ สตูดิโอ" onerror="this.style.display='none'">
+        </div>
+
+        <h1>ดวงใจ สตูดิโอ</h1>
+        <p class="subtitle">a house of heart full of art</p>
+
+        <div class="coming-soon">🎨 Coming Soon</div>
+
+        <p class="description">
+            เรากำลังเตรียมสิ่งพิเศษให้กับคุณ<br>
+            พื้นที่แห่งศิลปะและความคิดสร้างสรรค์จะเปิดให้บริการเร็วๆ นี้
+        </p>
+
+        <div class="social-links">
+            <!-- Line Official -->
+            <a href="https://lin.ee/bfB3Kkx" target="_blank" class="social-link" title="Line Official">
+                <svg viewBox="0 0 24 24">
+                    <path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.349 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/>
+                </svg>
+            </a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/duangjaistudio" target="_blank" class="social-link" title="Facebook">
+                <svg viewBox="0 0 24 24">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/duangjaistudio" target="_blank" class="social-link" title="Instagram">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+            </a>
+        </div>
+
+        <p class="contact-info">
+            ติดต่อเรา: <a href="mailto:contact@duangjaistudio.com">contact@duangjaistudio.com</a>
+        </p>
+    </div>
+
+    <script>
+        // Create floating hearts
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = '❤';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (Math.random() * 10 + 10) + 's';
+            heart.style.animationDelay = Math.random() * 5 + 's';
+            heart.style.fontSize = (Math.random() * 20 + 10) + 'px';
+            document.getElementById('hearts').appendChild(heart);
+
+            // Remove heart after animation
+            setTimeout(() => {
+                heart.remove();
+            }, 25000);
+        }
+
+        // Create initial hearts
+        for (let i = 0; i < 15; i++) {
+            setTimeout(createHeart, i * 500);
+        }
+
+        // Keep creating hearts
+        setInterval(createHeart, 2000);
+    </script>
+</body>
 </html>
